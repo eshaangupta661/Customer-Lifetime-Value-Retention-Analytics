@@ -1,0 +1,31 @@
+# Large data files — too big for GitHub (use Git LFS or exclude)
+*.csv
+*.xlsx
+*.xls
+
+# Power BI files — optional, can be large
+# *.pbix
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# SQL Server
+*.mdf
+*.ldf
+*.bak
+
+# IDE
+.idea/
+.vscode/
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
